@@ -56,9 +56,10 @@ header li{
 }
 
 .container{
-  max-width: 1366px;
+  max-width: 1400px;
   width: 100%;
-  padding: 20px 0 70px 220px;
+  padding-bottom: 70px;
+  padding-left:220px;
   color: #fff;
 }
 
@@ -79,8 +80,6 @@ header li{
   margin-right: 15px;
   text-align: center;
   font-weight: bold;
-  /* debug */
-  background-color: antiquewhite;
 }
 
 .card img{
@@ -96,6 +95,11 @@ header li{
   color: #76787d;
   font-size: 0.7rem;
   margin-top: 5px;
+}
+
+/*********** ARTISTI ***********/
+.rounder img{
+  border-radius: 50%;  
 }
 
 /*********** BARRA PLAYER BOTTOM ***********/
