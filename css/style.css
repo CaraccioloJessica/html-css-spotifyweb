@@ -55,21 +55,40 @@ header li{
   width: 100%;
   height: 100vh;
   padding: 20px 0 70px 220px;
+  color: #fff;
 }
 
 /*********** PLAYLIST ***********/
 .cards{
   display: flex;
   flex-wrap: wrap;
+  margin-top: 20px;
 }
 
 .card{
-  width: 160px;
-  height: 160px;
+  width: 170px;
+  height: 170px;
   margin-top: 10px;
   margin-right: 15px;
+  text-align: center;
+  font-weight: bold;
   /* debug */
   background-color: antiquewhite;
+}
+
+.card img{
+  width: 100%;
+}
+
+.card .title{
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+.card .subtitle{
+  color: #76787d;
+  font-size: 0.7rem;
+  margin-top: 5px;
 }
 
 /*********** BARRA PLAYER BOTTOM ***********/
