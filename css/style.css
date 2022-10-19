@@ -28,16 +28,6 @@ header li{
   font-weight: bold;
 }
 
-/*********** NAVIGAZIONE LATERALE ***********/
-#lat-nav-bar{
-  background-color: #000;
-  width: 200px;
-  height: calc(100vh - 70px);
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
 /*********** TOP FIXED BAR ***********/
 #top-bar{
   width: calc(100% - 200px);
@@ -48,6 +38,27 @@ header li{
   right: 0;
   z-index: 10;
 }
+
+/*********** NAVIGAZIONE LATERALE ***********/
+#lat-nav-bar{
+  background-color: #000;
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/*********** CONTAINER PLAYLIST ***********/
+.container{
+  max-width: 1400px;
+  width: 100%;
+  height: 100vh;
+  padding: 40px 30px 70px 220px;
+}
+
+/*********** PLAYLIST ***********/
+
 
 /*********** BARRA PLAYER BOTTOM ***********/
 #player-bar{
