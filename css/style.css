@@ -5,8 +5,27 @@
 }
 
 body{
+  font-family: 'Montserrat', sans-serif;
   background-color: #141922;
   height: 100vh;
+}
+
+/************ MENU' NAV ***********/
+header{
+  margin-left: 200px;
+  margin-top: 90px;
+}
+header ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+header li{
+  margin: 0 10px;
+  color: #76787d;
+  font-size: 0.8rem;
+  font-weight: bold;
 }
 
 /*********** NAVIGAZIONE LATERALE ***********/
@@ -14,6 +33,9 @@ body{
   background-color: #000;
   width: 200px;
   height: calc(100vh - 70px);
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 /*********** TOP FIXED BAR ***********/
