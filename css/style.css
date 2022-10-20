@@ -287,7 +287,7 @@ header li{
 /************ CENTER ************/
 #player-center{
   width: 70%;
-  height: 90px;
+  height: 70px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -335,4 +335,25 @@ header li{
   width: 25%;
   height: 4px;
   border-radius: 10px;
+}
+
+/*********** BARRA PLAYER RIGHT ***********/
+.player-right{
+  width: 15%;
+  height: 45px;
+}
+
+.player-right i{
+  margin: 0 5px;
+  font-size: 0.7rem;
+  color: #fff;
+  margin-top: 16px;
+}
+
+.volume{
+  width: 50%;
+  height: 4px;
+  border-radius: 10px;
+  background-color: #76787d;
+  display: inline-block;
 }
