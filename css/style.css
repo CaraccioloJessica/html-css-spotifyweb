@@ -37,6 +37,20 @@ header li{
   top: 0;
   right: 0;
   z-index: 10;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#top-bar a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 600;
+  margin-right: 20px;
+  padding: 10px 25px;
+  border: 1px solid #fff;
+  border-radius: 20px;
 }
 
 /*********** NAVIGAZIONE LATERALE ***********/
@@ -70,7 +84,7 @@ header li{
 
 .cards{
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: wrap;
 }
 
 .card{
