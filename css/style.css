@@ -82,7 +82,7 @@ header li{
   text-decoration: none;
   display: flex;
   align-items: center;
-  height: 35px;
+  height: 30px;
   gap: 5px;
 }
 
@@ -93,7 +93,7 @@ header li{
 
 #lat-nav-bar span{
   font-weight: 700;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 
 .white-title{
@@ -104,7 +104,7 @@ header li{
 .white-bold{
   color: #fff;
   padding-bottom: 10px;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 700;
 }
 
@@ -114,7 +114,7 @@ header li{
 }
 
 .fa-square-plus{
-  font-size: 40px;
+  font-size: 35px;
   color: #A3A3A3;
 }
 
@@ -134,7 +134,8 @@ header li{
 
 /*********** PLAYLIST ***********/
 .container h2{
-  margin: 30px 0 10px;
+  margin: 30px 0 20px;
+  font-size: 1.4rem;
 }
 
 .container h4{
