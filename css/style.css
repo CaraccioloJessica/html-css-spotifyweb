@@ -134,7 +134,13 @@ header li{
 
 /*********** PLAYLIST ***********/
 .container h2{
-  margin: 30px 0;
+  margin: 30px 0 10px;
+}
+
+.container h4{
+  font-size: 0.8rem;
+  margin-bottom: 30px;
+  color: #76787d;
 }
 
 .cards{
