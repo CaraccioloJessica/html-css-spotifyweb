@@ -132,7 +132,7 @@ header li{
   width: 100%;
   padding: 20px 15px 0;
   z-index: 1;
-  margin-bottom: 70px;
+  margin-bottom: 90px;
 }
 #user-bar a{
   text-decoration: none;
@@ -232,11 +232,85 @@ header li{
 /*********** BARRA PLAYER BOTTOM ***********/
 #player-bar{
   width: 100%;
-  height: 70px;
+  height: 90px;
   background-color: #282828;
   position: fixed;
   bottom: 0;
   left: 0;
   z-index: 5;
+}
+
+#player-content{
+  width: 100%;
+  height: 90px;
+  padding: 10px;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+}
+
+.player-left{
+  width: 10%;
+  height: 45px;
+  margin-right: 15px;
+}
+
+.player-left img{
+  height: 100%;
+  float: left;
+  margin-right: 10px;
+}
+
+.player-white{
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.8rem;
+  margin-top: 0.4rem;
+}
+
+.player-grey{
+  color: #76787d;
+  font-weight: 700;
+  font-size: 0.7rem;
+}
+
+#icon-left{
+  float: left;
+  width: 5%;
+}
+
+.fa-heart, .fa-folder{
+  padding: 0 8px;
+  color: #76787d;
+}
+
+/************ CENTER ************/
+#player-center{
+  width: 70%;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.bar{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bar.white{
+  color: #fff;
+}
+
+.bar.white span:nth-child(3) i{
+  font-size: 1.7rem;
+}
+
+.bar.white i{
+  padding: 0 15px;
+  font-size: 1.1rem;
 }
 
