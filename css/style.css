@@ -30,7 +30,7 @@ header li{
 
 /*********** TOP FIXED BAR ***********/
 #top-bar{
-  width: calc(100% - 200px);
+  width: calc(100% - 220px);
   height: 70px;
   background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
@@ -56,11 +56,48 @@ header li{
 /*********** NAVIGAZIONE LATERALE ***********/
 #lat-nav-bar{
   background-color: #000;
-  width: 200px;
+  width: 220px;
   height: 100%;
+  padding-left: 20px;
+  padding-top: 15px;
   position: fixed;
   top: 0;
   left: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#lat-nav-bar h1{
+  max-width: 130px;
+}
+
+#lat-nav-bar ul{
+  list-style: none;
+  padding: 20px 0;
+}
+
+
+#lat-nav-bar li a{
+  color: #76787d;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  height: 35px;
+  gap: 5px;
+}
+
+#lat-nav-bar li img{
+  height: 25px;
+  filter: invert(22%) sepia(0%) saturate(209%) hue-rotate(189deg) brightness(97%) contrast(90%);
+}
+
+#lat-nav-bar span{
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.white-title{
+  color: #fff;
 }
 
 /*********** CONTAINER***********/
@@ -73,7 +110,7 @@ header li{
   max-width: 1400px;
   width: 100%;
   padding-bottom: 70px;
-  padding-left:220px;
+  padding-left:240px;
   color: #fff;
 }
 
