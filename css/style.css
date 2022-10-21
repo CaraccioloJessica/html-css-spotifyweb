@@ -273,7 +273,7 @@ header li:hover{
 }
 
 .card:hover img{
-  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0.2;
 } 
 
 .card i{
