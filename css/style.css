@@ -76,9 +76,14 @@ header li{
   flex-direction: column;
 }
 
-#lat-nav-bar h1{
+#desktop{
   max-width: 130px;
   margin-left: 20px;
+}
+
+/*********** LOGO SMARTPHONE ***********/
+#smartphone{
+  display: none;
 }
 
 #lat-nav-bar ul{
@@ -393,6 +398,12 @@ header li{
   }
 }
 
+@media screen and (max-width:1319px) {
+  .card{
+    width: 190px;
+  }
+}
+
 @media screen and (max-width:981px) {
   .player-right{
     width: 25%;
@@ -408,5 +419,49 @@ header li{
   }
   .player-left{
     width: 29%;
+  }
+}
+
+@media screen and (max-width:649px) {
+  #lat-nav-bar{
+    width: 80px;
+  }
+
+  #desktop, .white-bold, #crea, #lat-nav-bar li span, #user-bar{
+    display: none;
+  }
+
+  #smartphone{
+    display: inline-block;
+    margin-left: 0.7rem;
+    width: 70%;
+  }
+
+  header{
+    margin-left: 80px;
+  }
+
+  .card{
+    width: 210px;
+  }
+
+  #lat-nav-bar li a{
+    height: 50px;
+  }
+
+  #green-lat:nth-child(1){
+    border: none;
+  }
+
+  #lat-nav-bar li img{
+    height: 35px;
+  }
+
+  #top-bar {
+    width: calc(100% - 80px);
+  }
+
+  .container{
+    padding-left: 120px;
   }
 }
