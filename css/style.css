@@ -24,6 +24,7 @@ header ul{
 
 header li{
   margin: 0 10px;
+  padding-bottom: 30px;
   color: #76787d;
   font-size: 0.8rem;
   font-weight: bold;
@@ -383,4 +384,26 @@ header li{
   border-radius: 10px;
   background-color: #76787d;
   display: inline-block;
+}
+
+/*********** RESPONSIVE TABLET ***********/
+@media screen and (max-width:1303px) {
+  .player-right{
+    width: 20%;
+  }
+}
+
+@media screen and (max-width:981px) {
+  .player-right{
+    width: 25%;
+  }
+}
+
+@media screen and (max-width:789px) {
+  .player-right{
+    width: 35%;
+  }
+  .player-left{
+    width: 29%;
+  }
 }
