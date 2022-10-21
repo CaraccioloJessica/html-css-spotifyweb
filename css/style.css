@@ -254,13 +254,32 @@ header li:hover{
 }
 
 .card{
+  cursor: pointer;
   width: 165px;
   min-height: 250px;
   margin-bottom: 20px;
   margin-right: 15px;
   text-align: center;
   font-weight: bold;
+  position: relative;
 }
+
+.card:hover i{
+  display: block;
+  font-size: 3rem;
+  position: absolute;
+  top: 23%;
+  left: 35%;
+}
+
+.card:hover img{
+  background-color: rgba(0, 0, 0, 0.5);
+} 
+
+.card i{
+  display: none;
+}
+
 
 .card img{
   width: 100%;
