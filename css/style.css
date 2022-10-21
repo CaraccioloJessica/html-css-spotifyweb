@@ -421,6 +421,10 @@ header li:hover{
   position: relative;
 }
 
+.progress:hover{
+  background-color: #adff2f;
+}
+
 .fa-circle{
   display: none;
 }
