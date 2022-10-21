@@ -29,6 +29,14 @@ header li{
   font-weight: bold;
 }
 
+#green-top{
+  margin-top: 5px;
+  margin-left: 30%;
+  width: 40px;
+  height: 2px;
+  background-color: #adff2f;
+}
+
 /*********** TOP FIXED BAR ***********/
 #top-bar{
   width: calc(100% - 220px);
