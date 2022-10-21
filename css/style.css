@@ -401,7 +401,10 @@ header li{
 
 @media screen and (max-width:789px) {
   .player-right{
-    width: 35%;
+    width: 30%;
+  }
+  .volume{
+    width: 40%;
   }
   .player-left{
     width: 29%;
