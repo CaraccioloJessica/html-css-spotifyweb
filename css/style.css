@@ -111,6 +111,10 @@ header li:hover{
   gap: 5px;
 }
 
+#lat-nav-bar li a:hover{
+  color: #fff;
+}
+
 #green-lat:nth-child(1) {
   border-left: 2px solid #adff2f;
 }
@@ -150,6 +154,14 @@ header li:hover{
   text-decoration: none;
 }
 
+#crea i:hover{
+  color: #fff;
+}
+
+#lat-nav-bar #bold:hover{
+  color: #fff;
+}
+
 #lat-nav-bar #bold{
   font-size: 0.9rem;
   padding-left: 5px;
@@ -181,6 +193,10 @@ header li:hover{
 #user-bar img{
   height: 20px;
   width: 20px;
+}
+
+#user-bar span:hover{
+  color: #fff;
 }
 
 #user-bar a:last-of-type img{
@@ -302,7 +318,12 @@ header li:hover{
 }
 
 #icone{
+  cursor: pointer;
   margin-left: 20px;
+}
+
+#icone i:hover{
+  color: #fff;
 }
 
 .player-white{
@@ -347,6 +368,10 @@ header li:hover{
   font-size: 1.9rem;
 }
 
+.bar.white span:nth-child(3) i:hover{
+  font-size: 2.1rem;
+}
+
 .bar.white i{
   cursor: pointer;
   padding: 0 15px;
@@ -369,10 +394,24 @@ header li:hover{
 }
 
 .progress{
+  cursor: pointer;
   background-color: #fff;
   width: 25%;
   height: 4px;
   border-radius: 10px;
+  position: relative;
+}
+
+.fa-circle{
+  display: none;
+}
+
+.progress:hover .fa-circle{
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: -6px;
+  color: #fff;
 }
 
 /*********** BARRA PLAYER RIGHT ***********/
