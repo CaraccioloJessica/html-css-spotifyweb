@@ -23,11 +23,16 @@ header ul{
 }
 
 header li{
+  cursor: pointer;
   margin: 0 10px;
   padding-bottom: 30px;
   color: #76787d;
   font-size: 0.8rem;
   font-weight: bold;
+}
+
+header li:hover{
+  color: #fff;
 }
 
 #green-top{
@@ -61,6 +66,10 @@ header li{
   padding: 10px 25px;
   border: 1px solid #fff;
   border-radius: 20px;
+}
+
+#top-bar a:hover{
+  transform: scale(1.1);
 }
 
 /*********** NAVIGAZIONE LATERALE ***********/
